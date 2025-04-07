@@ -1,0 +1,18 @@
+[0;1;32m●[0m github_webhook.service - GitHub Webhook Listener
+     Loaded: loaded (/etc/systemd/system/github_webhook.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Wed 2025-03-12 23:11:16 UTC; 3s ago
+   Main PID: 4504 (python)
+      Tasks: 1 (limit: 4646)
+     Memory: 18.1M
+        CPU: 125ms
+     CGroup: /system.slice/github_webhook.service
+             └─4504 /home/Finance/venv/bin/python /home/Finance/webhook.py
+
+Mar 12 23:11:16 srv752754 systemd[1]: Started GitHub Webhook Listener.
+Mar 12 23:11:16 srv752754 python[4504]:  * Serving Flask app 'webhook'
+Mar 12 23:11:16 srv752754 python[4504]:  * Debug mode: off
+Mar 12 23:11:16 srv752754 python[4504]: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+Mar 12 23:11:16 srv752754 python[4504]:  * Running on all addresses (0.0.0.0)
+Mar 12 23:11:16 srv752754 python[4504]:  * Running on http://127.0.0.1:5001
+Mar 12 23:11:16 srv752754 python[4504]:  * Running on http://212.85.2.179:5001
+Mar 12 23:11:16 srv752754 python[4504]: Press CTRL+C to quit
